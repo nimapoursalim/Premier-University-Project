@@ -1,0 +1,107 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 8em;
+    justify-content: left;
+}
+
+.BookCard {
+    width: 300px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.1);
+    text-align: center;
+    max-width: 200px;
+    padding: auto;
+    margin: 6px;
+    font-size: 1em;
+    height: 375px;
+    transition: height 0.5s;
+    overflow:hidden ;
+    justify-content: center;
+}
+
+.BookCard:hover{
+    height: 450px;
+    transition: 0.5s;
+    border: 1px solid hsl(0, 0%, 60%);
+}
+
+#BooksName {
+    font-size: 25px;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+}
+
+#BooksName:hover {
+    transition: 0.2s;
+    color: hsl(0, 0%, 49%);
+}
+
+#BooksAuthor {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    transition: ease-out 0.3s;
+}
+
+#BooksAuthor:hover {
+    transition: 0.2s;
+    color:
+    hsl(0, 0%, 49%);
+}
+
+
+#showMoreBookCard {
+    border: solid hsl(0, 0%, 80%);
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.1);
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#showMoreBookCard:hover {
+    transition: 0.5s;
+    background-color: hsl(0, 0%, 80%);
+}
+.imageContainer {
+    width: 200px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+}
+
+#BooksImage {
+    display: grid;
+    width: 200px;
+    height: 300px;
+    margin: 0;
+    border: 1px solid hsl(0%, 0%, 80%);
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.1);
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+.flexCenter {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.paddings {
+    padding: 1.5rem;
+}
+
+@media (min-width: 1536px) {
+    .innerWidth {
+        max-width: 1280px;
+        margin:auto; 
+    }
+}
+

@@ -1,0 +1,5 @@
+.App {
+    min-height: 100vh;
+    display: flex; /* these two line that follow each are the main feature that keep the footer streched to the bottom */
+    flex-direction: column;
+}
