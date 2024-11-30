@@ -1,6 +1,9 @@
-import { useState } from "react";
 import "./HeaderSearchBox.css"
+import { useState } from "react";
 import { colors } from "@mui/material";
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
 
 const books = [
     { title: "To Kill a Mockingbird", author: "Harper Lee" },
@@ -26,28 +29,18 @@ const books = [
 ];
 
 function HeaderSearchBox() {
-  const [searchTerm, setSearchTerm] = useState("");
-
-  const filteredBooks = books.filter((book) => 
-    book.title.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
-);
-
   return (
-    <>
-    <input type="text" placeholder="Search" onChange={(e) => setSearchTerm(e.target.value)}/>
-        {filteredBooks.length > 0 ? (
-          filteredBooks.map((book, index) => (
-            <li key={index}>
-              <strong>{book.title}</strong> by {book.author}
-            </li>
-          ))
-        ) : (
-          <li>No books found</li>
-        )}
-    
-    </>
+    <Box
+      component="form"
+      sx={{ '& > :not(style)': { m: 1, width: '15ch', } }}
+      noValidate
+      autoComplete="off"
+    >
+      <TextField id="standard-basic" label="Search" variant="standard"/>
+    </Box>
   );
 }
+
 
 export default HeaderSearchBox;
 

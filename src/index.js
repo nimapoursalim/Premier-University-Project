@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from './navBar';
-import App from './App';
+import App from './App.tsx';
 
 
 ReactDOM.render(

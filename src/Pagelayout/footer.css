@@ -1,10 +1,10 @@
 .pageFooter {
-    background-color: hsla(0, 0%, 15%, 0.877);
+    background: var(--black);
     margin-top: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 25px;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
 }
