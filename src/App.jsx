@@ -26,7 +26,6 @@ function App() {
                     <Route path="/KoataPlus" element={<KoataPlus />} />
                     <Route path="/Education" element={<Education />} />
  
-
                     <Route path="/" element={<CardList />} />
                     <Route path="/CardDetailsPage/:id" element={<CardDetailsPage />} />
                 </Routes>

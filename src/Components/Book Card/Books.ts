@@ -8,7 +8,7 @@ export interface Book {
 
   export const books: Book[] = [
     { id : 1, title: "Iliad", author: "Homer", image : "https://m.media-amazon.com/images/I/71f6IxWPdzL._AC_UF1000,1000_QL80_.jpg", description: "Homer's monumental epic set at the end of the Trojan War explores love, heroism, and the intricate relationship between gods and mortals"},
-    { id : 2, title: "Odyssey", author: "Homer", image : "https://monsieurdidot.com/wp-content/uploads/2020/02/The-Odyssey.jpg", description: "The Odyssey is the original collection of tall traveller's tales. Odysseus, on his way home from the Trojan War"},
+    { id : 2, title: "Odyssey", author: "Homer", image : "https://monsieurdidot.com/wp-content/uploads/2020/02/The-Odyssey.jpg", description: "The Odyssey is the original collection of tall traveller's tales. Odysseus, on his way home from the Trojan War."},
     { id : 3, title: "To Kill a Mockingbird", author: "Harper Lee", image : "https://m.media-amazon.com/images/I/81aY1lxk+9L.jpg", description: "o Kill a Mockingbird is a novel by the American author Harper Lee. It was published in July 1960 and became instantly successful"},
     { id : 4, title: "1984", author: "George Orwell", image : "https://m.media-amazon.com/images/I/81qZ5kGMQ1L._AC_UF1000,1000_QL80_.jpg", description: ""},
     { id : 5, title: "The Great Gatsby", author: "F. Scott Fitzgerald", image : "https://m.media-amazon.com/images/I/81QuEGw8VPL._AC_UF1000,1000_QL80_.jpg", description: ""},

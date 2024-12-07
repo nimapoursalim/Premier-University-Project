@@ -17,9 +17,9 @@ const CardDetailsPage: React.FC = () => {
     <div className='BookCardDetail'>
       <img src={card.image} alt="a photo" className='DetailPagePhoto' />
       <h1 className='content'>{card.title}</h1>
-      <p className='content'>by{card.author}</p>
+      <p className='content'>by {card.author}</p>
       <p className='content'>{card.description}</p>
-      <button className='button' onClick={() => navigate(-1)}>Go Back</button>
+      <button className='DetailPageGoBackButton' onClick={() => navigate(-1)}>Go Back</button>
     </div>
   );
 };
