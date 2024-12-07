@@ -4,37 +4,11 @@
     flex-direction: column;
     position: relative;
     overflow-x: clip;
+    background-color: #ddd2d2;
+    border-bottom: 6px solid rgb(47, 44, 44);
 }
 
-.BookCards {
-    display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15% ;
-    background-color: #ffffff;
-    padding: 10px;
-    margin: 4em;
-    justify-content: center;
-}
 
-.CardsThemselves {
-    border: 1px solid hsl(0, 0%, 80%);
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.1);
-    text-align: center; 
-    padding: auto;
-    font-size: 1em;
-    height: 380px;
-    transition: height 0.5s;
-    overflow:hidden ;
-    justify-content: center;
-    margin-bottom: 100px;
-    margin: 10px;
-}
-
-.CardsThemselves:hover{
-    height: 390px;
-    transition: 0.5s;
-    border: 1px solid hsl(0, 0%, 60%);
-}
 
 
 

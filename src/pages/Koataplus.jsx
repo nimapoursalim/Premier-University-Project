@@ -1,9 +1,8 @@
-
-
-export default function KoataPlus() {
+function KoataPlus() {
     return (
-        <div className='Page'>
-            <h1 style={{textAlign:"center"}}>KoataPlus</h1>
+        <div>
+            <h1>KoataPlus</h1>
         </div>
     );
 };
+export default KoataPlus;

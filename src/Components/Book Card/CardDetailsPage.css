@@ -1,0 +1,35 @@
+.BookCardDetail {
+    display: grid;
+    place-items: center; /* Centers content both horizontally and vertically */
+    height: 100vh; /* Full viewport height */
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 50%;
+    padding: 20px;
+
+}
+
+.DetailPagePhoto{
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.background {
+        background-image: url("https://images.unsplash.com/photo-1570047435693-4a1d6bbc6220?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW5jaWVudCUyMGxpYnJhcnl8ZW58MHx8MHx8fDA%3D");
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Full viewport height */
+        width: 100%;   /* Full width */
+}
