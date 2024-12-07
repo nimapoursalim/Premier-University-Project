@@ -1,6 +1,6 @@
 import React from "react";
 import './Hero.css'
-import HeaderSearchBox from './Components/HeaderSearchBox.jsx';
+import HeaderSearchBox from '../Components/SearchBox/HeaderSearchBox.jsx';
 
 const Hero = () => {
     return (
