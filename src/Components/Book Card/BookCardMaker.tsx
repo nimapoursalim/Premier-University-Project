@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import "./BookCard.css"
+
 
 interface BookProps {
   id: number;

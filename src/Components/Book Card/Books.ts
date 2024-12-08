@@ -6,6 +6,14 @@ export interface Book {
     description: string;
   }
 
+  export interface dickprop {
+    id: number;
+    title: string;
+    author: string;
+    image: string;
+    description: string;
+  }
+
   export const books: Book[] = [
     { id : 1, title: "Iliad", author: "Homer", image : "https://m.media-amazon.com/images/I/71f6IxWPdzL._AC_UF1000,1000_QL80_.jpg", description: "Homer's monumental epic set at the end of the Trojan War explores love, heroism, and the intricate relationship between gods and mortals"},
     { id : 2, title: "Odyssey", author: "Homer", image : "https://monsieurdidot.com/wp-content/uploads/2020/02/The-Odyssey.jpg", description: "The Odyssey is the original collection of tall traveller's tales. Odysseus, on his way home from the Trojan War."},

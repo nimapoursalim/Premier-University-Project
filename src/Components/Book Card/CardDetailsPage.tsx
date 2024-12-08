@@ -4,7 +4,7 @@ import { books } from './Books.ts';
 import "./CardDetailsPage.css"
 
 const CardDetailsPage: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
+  const {id} = useParams<{ id: string }>();
   const navigate = useNavigate();
 
   const card = books.find((card) => card.id === parseInt(id || '', 10));
